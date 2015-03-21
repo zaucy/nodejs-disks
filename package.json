@@ -4,7 +4,7 @@
   "description": "Nodejs module to gets current disk information from Server hosting nodejs application tested on OSX and ubuntu adapted from node-diskfree see Readme",
   "version": "0.2.1",
   "license": "MIT",
-  "main": "./lib/disks.js",
+  "main": "./lib/disks",
   "scripts": {
     "test": "mocha test/ -R spec -s 300 -t 3000"
   },
@@ -19,7 +19,6 @@
     "volumes",
     "harddisk"
   ],
-  "main": "./lib/disks",
   "dependencies": {
     "async": "~0.2.9",
     "numeral": "~1.4.8"
